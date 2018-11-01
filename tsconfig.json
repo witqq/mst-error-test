@@ -1,0 +1,35 @@
+{
+  "compilerOptions": {
+    "noErrorTruncation": true,
+    "target": "es5",
+    "jsx": "react",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "outDir": "build",
+    "lib": [
+      "dom",
+      "es6",
+      "es5",
+      "es2015.symbol",
+      "es2015.core",
+      "es2015.collection",
+      "es2015.iterable",
+      "es2015"
+    ],
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "noEmit": true,
+    "forceConsistentCasingInFileNames": false,
+    "suppressImplicitAnyIndexErrors": true,
+    "downlevelIteration": true
+  },
+  "include": [
+    "src/**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "!node_modules/@types",
+    "build"
+  ],
+  "skipLibCheck": true
+}

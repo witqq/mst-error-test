@@ -1,0 +1,17 @@
+{
+  "name": "mst-error-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mobx": "^5.5.2",
+    "mobx-state-tree": "^3.7.1",
+    "typescript": "^3.1.5"
+  }
+}
